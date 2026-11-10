@@ -27,6 +27,13 @@ article a {
 article a:visited {
     color: #980084;
 }
+article img {
+    width:100%;
+    height:auto; 
+    background:#DFDFDF;
+    padding: 1rem 0.5rem;
+    box-sizing: border-box;
+}
 article h2 {
     cursor: pointer;
 }
