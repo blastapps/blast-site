@@ -44,6 +44,18 @@ article h2 a::after {
 }
 #footer{
     margin: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 1rem;
+}
+#footer .lastUpdated {
+    white-space: nowrap;
+}
+#footer img {
+    display: block;
 }
 .links {
     display: flex;
@@ -64,3 +76,5 @@ article h2 a::after {
 .back::before{
     content: '\2B05  ';
 }
+/* Shared header/footer custom elements: render as if the inner div were placed directly */
+site-header, site-footer { display: contents; }
